@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css.2?family=Varela+Round&display=swap');
+body{
+    background-color: rgb(46, 45, 43);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'varela';
+}
+nav ul{
+    background-color: black;
+    color:rgb(255, 255, 255);
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+ height:40px;
+ padding: 0px 4px;
+}
+.logo{
+    align-items: center;
+    display: flex;
+    font-weight:bolder;
+    font-size:1.4rem;
+}
+nav ul li{
+    font-size:0.9rem;
+    padding: 0px 10px;
+}
+.middle{
+    min-height: 70vh; /*75%of entire screen*/
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: smaller;
+    font-family:"varela-round";
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: none;
+}
+.bottom{
+    color: rgb(255, 255, 255);
+    position: sticky;
+    height:100px;
+    background-color: black;
+    bottom: 0; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+i{
+    margin: 12px 0px;
+    margin-right: 2px;
+    
+}
+#rangebar{
+    width: 80vh;
+    cursor: pointer;
+}
+.entirelistofsongs{
+    margin-top: 70px;
+}
+.songs{
+   /* background-color: white; */
+   display: flex;
+   height: 40px;
+   width: 95%;
+   color: rgb(0, 0, 0);
+   background-color: rgb(226, 216, 216);
+   margin: 12px 0;
+   font-size: larger;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 34px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    cursor: pointer;
+}
+.time i{
+    width: auto;
+    font-size: 1.5rem;
+}
+.timestamp{
+   margin-right:10px;
+   cursor: pointer;
+}
+.songs{
+    width: 95%;
+    height: 40px;
+   display: flex;
+}
+.songs img{
+    width: 30px;
+    margin: 0 20px;
+    border-radius: 50%;
+}
+.icons{
+    height: 20px;
+    padding-bottom: 30px;
+}
+.songinfo{
+    position: absolute;
+    left: 13vw;
+    padding-top: 32px;
+    font-family: varela;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
